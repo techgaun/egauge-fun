@@ -1,6 +1,10 @@
 # egauge-fun
 Having fun with egauge - http://www.egauge.net/
 
+### Hacking all egauge devices
+
+Egauge identifiers seem to be just 4-5 digit code which means we could just iterate from 1000 to 100000 and run any of the calls that we can perform. Most likely, many of the endpoints can be called without authentication as its not uncommon for people to disable authentication.
+
 ### Undocumented endpoints
 
 #### Get configuration parameters
