@@ -15,7 +15,7 @@ Looks like this could be replayed to get other configuration parameters. Just ne
 http://<egauge_id>.egaug.es/cgi-bin/get?lang
 
 # Other params:
-installerURL
+installerURL, pushProviders
 ```
 
 #### Get eGauge status
