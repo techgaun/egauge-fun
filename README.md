@@ -29,8 +29,14 @@ http://<egauge_id>.egaug.es/status.xml
 #### Get eGauge configuration
 
 ```
-http://egauge17984.egaug.es/cgi-bin/egauge-cfg?
+http://<egauge_id>.egaug.es/cgi-bin/egauge-cfg?
 
 # gives entire egauge configuration which is basically every kind of config
 # quite revealing
 ```
+
+#### General configuration endpoints
+
+```
+http://<egauge_id>.egaug.es/cgi-bin/netcfg
+http://<egauge_id>.egaug.es/cgi-bin/bacnetcfg
